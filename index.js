@@ -1,8 +1,8 @@
 let homeScore = 0
 let homeScoreEl = document.getElementById("home-score")
 
-let guestScore = 0
-let guestScoreEl = document.getElementById("guest-score")
+let awayScore = 0
+let awayScoreEl = document.getElementById("away-score")
 
 
 function home1() {
@@ -25,20 +25,20 @@ function home3() {
 
 // Guest Score Buttons 
 
-function guest1() {
-    guestScore += 1
-    guestScoreEl.textContent = guestScore
-    console.log("Home score = ", guestScore)
+function away1() {
+    awayScore += 1
+    awayScoreEl.textContent = awayScore
+    console.log("Home score = ", awayScore)
 }
 
-function guest2() {
-    guestScore += 2
-    guestScoreEl.textContent = guestScore
-    console.log("Home score = ", guestScore)
+function away2() {
+    awayScore += 2
+    awayScoreEl.textContent = awayScore
+    console.log("Home score = ", awayScore)
 }
 
-function guest3() {
-    guestScore += 3
-    guestScoreEl.textContent = guestScore
-    console.log("Home score = ", guestScore)
+function away3() {
+    awayScore += 3
+    awayScoreEl.textContent = awayScore
+    console.log("Home score = ", awayScore)
 }
